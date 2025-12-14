@@ -1,244 +1,240 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: papayawhip;
+body {
+  background-color: papayawhip;
 }
 
 /* header */
 
-#header{
-    width: 95%;
-    height: 45px;
-    margin: 10px auto;
-    display: flex;
+#header {
+  width: 95%;
+  height: 45px;
+  margin: 10px auto;
+  display: flex;
 }
-#logo{
-    width: 50px;
-    height: 40px;
+#logo {
+  width: 50px;
+  height: 40px;
 }
-#logo img{
-    width: 100%;
-    height: 85%;
+#logo img {
+  width: 100%;
+  height: 85%;
 }
-#top-heading{
-    width: 200px;
-    height: 40px;
+#top-heading {
+  width: 200px;
+  height: 40px;
 }
-#top-heading h1{
-    font-family: "Mozilla Headline", sans-serif;
-    color: #25D366;
-    font-size: 25px;
+#top-heading h1 {
+  font-family: "Mozilla Headline", sans-serif;
+  color: #25d366;
+  font-size: 25px;
 }
 
 /* container */
-.container{
-   width: 95%;
-   height: 830px;
-   margin: auto;
+.container {
+  width: 95%;
+  height: 830px;
+  margin: auto;
 }
 
 /* mid-section */
-#mid-section{
-    width: 85%;
-    height: 118px;
-    border: 2px solid black;
-    background-color: white;
-    margin: auto;
-    margin-top: 28px;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#mid-section {
+  width: 85%;
+  height: 118px;
+  border: 2px solid black;
+  background-color: white;
+  margin: auto;
+  margin-top: 28px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-#img-box{
-    width: 10%;
-    height: 80px;
-}
-
-#img-box img{
-    width: 110px;
-    height: 80px;
+#img-box {
+  width: 10%;
+  height: 80px;
 }
 
-#paragraph{
-    width: 60%;
-    height: 80px;
+#img-box img {
+  width: 110px;
+  height: 80px;
 }
 
-#paragraph h3{
-    font-family: "Mozilla Headline", sans-serif;
+#paragraph {
+  width: 60%;
+  height: 80px;
 }
 
-#paragraph p{
-    font-family: "Mozilla Headline", sans-serif;
-    margin-top: 6px;
+#paragraph h3 {
+  font-family: "Mozilla Headline", sans-serif;
 }
 
-
- .btn{
-    width: 155px;
-    height: 55px;
-    font-size:18;
-    background-color: #25D366;
-    border: 2px solid black;
-    border-radius: 35px;
- }
- .btn:hover{
-    background-color: black;
-    color: white;
- }
-
- /* main-section */
- #main-section{
-    width: 85%;
-    height: 415px;
-    border: 2px solid black;
-    background-color: white;
-    border-radius: 25px;
-    margin: auto;
-    margin-top: 18px;
- }
- #mid-section-child{
-    width: 100%;
-    height: 350px;
-    display: flex;
-
- }
- .left-box{
-    width: 60%;
-    height: 300px;
-    margin-top: 30px;
- }
- .main-heading{
-    width: 60%;
-    height: 50px;
-    margin-top: 28px;
-    margin-left: 42px;
- }
- .main-heading h2{
-    font-family: "Mozilla Headline", sans-serif;
-    font-size: 28px;
-    margin-top: 10px;
- }
- #login-step{
-    width: 80%;
-    height: 220px;
-    margin-left: 42px;
-    margin-top: 25px;
- }
- #login-step p{
-    font-size: 18px;
-    font-family: "Mozilla Headline", sans-serif;
-    line-height: 45px;
- }
- .right-box{
-    width: 40%;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .for-img-box{
-    width: 228;
-    height: 250px;
- }
- .for-img-box img{
-    width: 240px;
-    height: 240px;
-    margin-top: 16px;
- }
-
- /* #main-bottom */
- .main-bottom{
-    width: 100%;
-    height: 60px;
-    display: flex;
-    margin-top: -26px;
- }
- .left-text{
-    width: 50%;
-    height: 50px;
-    margin-left: 42px;
-    display: flex;
-    align-items: center;
+#paragraph p {
+  font-family: "Mozilla Headline", sans-serif;
+  margin-top: 6px;
 }
-.left-text label{
-    font-size: 18px;
-    font-family: "Mozilla Headline", sans-serif;
+
+.btn {
+  width: 155px;
+  height: 55px;
+  font-size: 18;
+  background-color: #25d366;
+  border: 2px solid black;
+  border-radius: 35px;
 }
-.right-text{
-    width: 33%;
-    height: 60px;
-    margin-left: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
- }
- .right-text a{
-    font-size: 17px;
-    text-decoration: none;
-    color: black;
-    font-family: "Mozilla Headline", sans-serif;
- }
-
- .right-text a:hover{
-   color: #25D366; ;
- }
-
- .right-text hr{
-    width: 200px;
-    height: 4px;
-    background-color :#25D366;
- }
-
- /* footer */
- .panel-1{
-   text-align: center;
-   font-size: 22px;
-   font-family: "Mozilla Headline", sans-serif;
-   margin-top: 40px;
- }
-
- .panel-1 hr{
-   width: 82px;
-   height: 4px;
-   background-color: #25D366;
-   margin-left: 600px;
-
- }
-
- .get-start{
-   font-size: 18px;
- }
- 
- .get-start:hover{
-   color: #25D366;
-   cursor: pointer;
- }
-
- .panel-2{
-   text-align: center;
-   font-size: 19px;
-   margin-top: 30px;
-   color: grey;
-   font-family: "Mozilla Headline", sans-serif;
- }
-
- .panel-3{
-   text-align: center;
-   margin-top: 30px;
+.btn:hover {
+  background-color: black;
+  color: white;
 }
-.panel-3 a{
-   text-decoration: none;
-   color: grey;
-   font-family: "Mozilla Headline", sans-serif;
- }
 
- .panel-3:hover{
-   text-decoration: underline;
- }
+/* main-section */
+#main-section {
+  width: 85%;
+  height: 415px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 18px;
+}
+#mid-section-child {
+  width: 100%;
+  height: 350px;
+  display: flex;
+}
+.left-box {
+  width: 60%;
+  height: 300px;
+  margin-top: 30px;
+}
+.main-heading {
+  width: 60%;
+  height: 50px;
+  margin-top: 28px;
+  margin-left: 42px;
+}
+.main-heading h2 {
+  font-family: "Mozilla Headline", sans-serif;
+  font-size: 28px;
+  margin-top: 10px;
+}
+#login-step {
+  width: 80%;
+  height: 220px;
+  margin-left: 42px;
+  margin-top: 25px;
+}
+#login-step p {
+  font-size: 18px;
+  font-family: "Mozilla Headline", sans-serif;
+  line-height: 45px;
+}
+.right-box {
+  width: 40%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.for-img-box {
+  width: 228;
+  height: 250px;
+}
+.for-img-box img {
+  width: 240px;
+  height: 240px;
+  margin-top: 16px;
+}
+
+/* #main-bottom */
+.main-bottom {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-top: -26px;
+}
+.left-text {
+  width: 50%;
+  height: 50px;
+  margin-left: 42px;
+  display: flex;
+  align-items: center;
+}
+.left-text label {
+  font-size: 18px;
+  font-family: "Mozilla Headline", sans-serif;
+}
+.right-text {
+  width: 33%;
+  height: 60px;
+  margin-left: 18gi0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-text a {
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+  font-family: "Mozilla Headline", sans-serif;
+}
+
+.right-text a:hover {
+  color: #25d366;
+}
+
+.right-text hr {
+  width: 200px;
+  height: 4px;
+  background-color: #25d366;
+}
+
+/* footer */
+.panel-1 {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Mozilla Headline", sans-serif;
+  margin-top: 40px;
+}
+
+.panel-1 hr {
+  width: 82px;
+  height: 4px;
+  background-color: #25d366;
+  margin-left: 600px;
+}
+
+.get-start {
+  font-size: 18px;
+}
+
+.get-start:hover {
+  color: #25d366;
+  cursor: pointer;
+}
+
+.panel-2 {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 30px;
+  color: grey;
+  font-family: "Mozilla Headline", sans-serif;
+}
+
+.panel-3 {
+  text-align: center;
+  margin-top: 30px;
+}
+.panel-3 a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Mozilla Headline", sans-serif;
+}
+
+.panel-3:hover {
+  text-decoration: underline;
+}
