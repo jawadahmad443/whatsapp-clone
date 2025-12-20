@@ -37,7 +37,7 @@ body {
 /* container */
 .container {
   width: 95%;
-  height: 830px;
+  height: 800px;
   margin: auto;
 }
 
@@ -171,7 +171,7 @@ body {
 .right-text {
   width: 33%;
   height: 60px;
-  margin-left: 190px;
+  margin-left: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
