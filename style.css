@@ -171,10 +171,10 @@ body {
 .right-text {
   width: 33%;
   height: 60px;
-  margin-left: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 220px;
 }
 .right-text a {
   font-size: 17px;
